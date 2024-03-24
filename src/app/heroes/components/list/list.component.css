@@ -10,6 +10,14 @@ li {
   @apply w-full px-4 py-2 border-b border-gray-200 dark:border-gray-600;
 }
 
+li:nth-child(odd) {
+  @apply bg-red-400;
+}
+
+li:nth-child(even) {
+  @apply bg-red-600;
+}
+
 li:last {
   @apply w-full px-4 py-2 rounded-b-lg;
 }
